@@ -9,7 +9,7 @@ void *hilo(void *valor){
         pthread_delay_np(&tiempo);//un bucle repetitivo
 	}
 }
-
+,,,6
 int main(void){
 pthread_t hola1;
 pthread_t hola2;
