@@ -14,7 +14,7 @@ int main(void){
 pthread_t hola1;
 pthread_t hola2;
 
-pthread_create(&hola1, NULL , &hilo , (void *) "Proceso 1");
+pthread_create(&hola1, NULL , &hilo , (void *) "Proceso 1");23j
 pthread_create(&hola2, NULL , &hilo , (void *) "Proceso 2");
 pthread_join(hola1, NULL);
 pthread_join(hola2, NULL);
